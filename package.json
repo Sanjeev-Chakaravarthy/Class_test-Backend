@@ -1,25 +1,16 @@
 {
   "name": "practice-express",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "[Deployment Link](https://practice-express.onrender.com)",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohan-bee/Practice-Express.git"
+    "start": "node init && nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohan-bee/Practice-Express/issues"
-  },
-  "homepage": "https://github.com/mohan-bee/Practice-Express#readme",
-  "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.9.6",
